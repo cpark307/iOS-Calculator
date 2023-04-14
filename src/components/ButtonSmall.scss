@@ -1,0 +1,52 @@
+@keyframes focus-animation {
+  0%    { opacity: 1; }
+  50%   { opacity: 0.8; }
+  100%  { opacity: 1; }
+}
+
+@keyframes orange-focus-animation {
+  0%    { opacity: 1; }
+  50%   { opacity: 0.8; }
+  100%  { 
+          opacity: 1;
+          background-color: white;
+          color: #e68600;
+        }
+}
+
+.light-btn {
+  background-color: #D3D3D3;
+  border: 1px solid #D3D3D3;
+}
+
+.light-btn:focus {
+  animation: focus-animation 0.3s 1;
+}
+
+.orange-btn {
+  background-color: #e68600;
+  border: 1px solid #e68600;
+  color: white;
+}
+
+.orange-btn:focus {
+  animation: orange-focus-animation 0.3s 1;
+  background-color: white;
+  color: #e68600;
+  border: 1px solid white;
+}
+
+.dark-btn {
+  background-color: #5A5A5A;
+  border: 1px solid #5A5A5A;
+  color: white;
+}
+
+.dark-btn:focus {
+  animation: focus-animation 0.3s 1;
+}
+
+.button-small {
+  width: 50px;
+  height: 50px;
+}

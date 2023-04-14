@@ -1,0 +1,14 @@
+.button-large {
+  background-color: #5A5A5A;
+  color: white;
+  flex-grow: 1;
+  display: flex;
+  border-radius: 30px;
+  border: 1px solid #5A5A5A;
+  padding-left: 13px;
+}
+
+.button-large:hover {
+  opacity: 0.90;
+  border: 0;
+}
